@@ -3,7 +3,7 @@
 sudo -s
 cd / && 
 rm -rf xmrig8 && 
-rm -rf test.sh && 
+rm -rf xmrig.sh && 
 sudo apt-get update && 
 sudo apt-get -y install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git &&
 sudo sysctl vm.nr_hugepages=128 &&
